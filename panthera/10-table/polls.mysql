@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS `polls` (
+  `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT,
+  `type_id` int(10) UNSIGNED NOT NULL,
+  `election_id` int(10) UNSIGNED NOT NULL,
+  `date` bigint(20) NOT NULL,
+  `name` varchar(32) NOT NULL,
+  KEY `index` (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
