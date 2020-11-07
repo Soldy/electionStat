@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS `zones_in_zones` (
+  `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT,
+  `holderId` int(10) UNSIGNED NOT NULL,
+  `subId` int(10) UNSIGNED NOT NULL,
+  KEY `index` (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
