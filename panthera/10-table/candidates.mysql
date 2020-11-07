@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS `candidates` (
+  `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT,
+  `name` varchar(32) NOT NULL,
+  KEY `index` (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
