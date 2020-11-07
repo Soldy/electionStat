@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS `candidate_in_party_on_election` (
+  `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT,
+  `candidateId` int(10) UNSIGNED NOT NULL,
+  `partyId` int(10) UNSIGNED NOT NULL,
+  `zoneId` int(10) UNSIGNED NOT NULL,
+  `electionId` int(10) UNSIGNED NOT NULL,
+  KEY `index` (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
